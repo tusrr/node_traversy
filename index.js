@@ -42,16 +42,16 @@ const fs = require('fs');
 const server = http.createServer((req,res)=>{
     // console.log(req.url)
 
-        //     if(req.url === '/api/users'){
-        //        const users = 
-        //       [ { name: 'Bobby', age:22},
-        //        {name: 'sekya', age:27}
+            if(req.url === '/api/users'){
+               const users = 
+              [ { name: 'Bobby', age:22},
+               {name: 'sekya', age:27}
     
-        //     ]
-        //         res.writeHead(200,{'Content-Type':'application/json'}) //status code is 200 -- everything is okay
-        //         res.end(JSON.stringify(users))
+            ]
+                res.writeHead(200,{'Content-Type':'application/json'}) //status code is 200 -- everything is okay
+                res.end(JSON.stringify(users))
    
-        // }
+        }
 
         // if(req.url === '/'){
         //     fs.readFile(path.join(__dirname,'public','index.html'),(err,content)=>{

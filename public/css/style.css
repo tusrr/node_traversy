@@ -2,3 +2,57 @@ body{
     background-color: black;
     color:white;
 }
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        width: 34px;
+        height: 24px;
+    }
+}
+
+img{
+    width: 100px;
+    height: 100px;
+   padding-right: 30px;
+    border-radius: 50%;
+}
+
+h1{
+    color:red;
+}
+
+header {
+    padding-top: 20px;
+    /* background-color: white; */
+    height:  30px;
+    color: rgb(6, 32, 222);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a{
+    
+    padding-left: 20px;
+}
+
+
+
+
